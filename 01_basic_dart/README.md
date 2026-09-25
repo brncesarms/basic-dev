@@ -1,7 +1,11 @@
 ---
 title: "Basic Dart — Mapa de Conteúdo"
 date_created: 2026-09-05
+last_modified: 2026-09-25
+author: "Bruno César"
+privacy: public
 tags:
+  - publico
   - dart
   - basic-dev
   - indice
@@ -66,8 +70,8 @@ tags:
 
 ---
 
-## 🔗 Fontes
+## 🔗 Referências & Documentação Oficial
 
-- 📄 Estrutura padronizada: [`AGENTS.md`](../../../AGENTS.md)
-- 📱 MOC principal: [`Dev Básico`](../README.md)
-- ☕ [Documentação oficial Dart](https://dart.dev/language)
+- 📱 [Guia Principal de Desenvolvimento Básico](../README.md) — Visão geral de Flutter e Dart.
+- 🎯 [Documentação Oficial do Dart](https://dart.dev/language) — Especificações e novidades da linguagem.
+- 🚀 [Flutter Docs](https://docs.flutter.dev) — Framework multiplataforma da Google.

@@ -2,11 +2,14 @@
 title: "Dart: Iterables (where, takeWhile, skipWhile, map)"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - iterable
   - loops
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔄 Dart: Iterables (`where`, `takeWhile`, `skipWhile`, `map`)
 
 > [!info] Métodos funcionais para transformar e filtrar coleções no Dart.
@@ -70,3 +73,11 @@ void main() {
 ## 🔗 Relacionados
 
 - 🎯 [Basic Dart — Mapa de Conteúdo](../README.md)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Manipulando Strings](../08_manipulacoes/01_manipulando_strings.md) — Operações com texto e caracteres.
+- [Manipulando Listas](../06_listas/03_manipulando_listas.md) — Métodos de coleção.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

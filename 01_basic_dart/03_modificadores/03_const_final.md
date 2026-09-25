@@ -2,12 +2,15 @@
 title: "Dart: Modificadores const e final"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - modificadores
   - const
   - final
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔒 Dart: Modificadores `const` e `final`
 
 > [!info] Modificadores que controlam a imutabilidade (se uma variável pode ou não ser alterada).
@@ -43,3 +46,11 @@ void main() {
 ```
 
 > [!tip] Regra prática: use `const` quando o valor for fixo em tempo de compilação; use `final` quando for definido uma vez em tempo de execução.
+
+---
+
+## 🔗 Notas Relacionadas
+- [Operadores Condicionais](../04_operadores_condicionais/01_operadores_condicionais.md) — Tomada de decisão com if/else.
+- [Variáveis e Tipagem](../02_variaveis/02_variaveis.md) — Fundamentos de tipos no Dart.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

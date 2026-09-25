@@ -1,57 +1,59 @@
-# **4. Install Android Studio**
-<details><summary>A. Install Android Studio</summary>
+---
+title: "Flutter (Linux): Instalação do Android Studio e SDK"
+date_created: 2026-08-17
+last_modified: 2026-09-25
+author: "Bruno César"
+privacy: public
+tags:
+  - publico
+  - flutter
+  - linux
+  - android
+  - sdk
+  - ide
+---
+
+# 📱 Flutter (Linux): Instalação do Android Studio e SDK
+
+> [!info] Instalação do Android Studio, bibliotecas de compatibilidade de 32-bit e configuração do SDK Manager para emulação e build nativo.
+
+---
+
+## 1. Instalação das Bibliotecas de 32-Bit (Dependências do SDK)
 
 ```bash
+# Habilitar arquitetura i386 e instalar bibliotecas auxiliares
+sudo dpkg --add-architecture i386
+sudo apt update
 sudo apt install -y libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
-
 ```
+
+---
+
+## 2. Instalação do Android Studio
+
+O método recomendado via pacote canônico Snap:
 
 ```bash
 sudo snap install android-studio --classic
-
 ```
-</details><br><br>
 
+---
 
-<details><summary>X. This part is already present in "1_bashrc_config.md"</summary>
+## 3. Configuração do SDK & Linhas de Comando
 
+1. Abra o Android Studio e conclua o assistente de primeira inicialização.
+2. Em **More Actions** -> **SDK Manager**:
+   - Aba **SDK Platforms**: Instale a versão mais recente e estável do Android SDK.
+   - Aba **SDK Tools**: Marque e instale **Android SDK Command-line Tools (latest)** e **Android SDK Platform-Tools**.
+3. Aceite as licenças do Android via terminal:
 ```bash
-echo '' >> ~/.bashrc
-echo 'export ANDROID_HOME=/home/$USER/Android/Sdk' >> ~/.bashrc
-echo 'export ANDROID_SDK_ROOT=/home/$USER/Android/Sdk' >> ~/.bashrc
-echo '' >> ~/.bashrc
-echo 'export PATH=$PATH:$ANDROID_HOME/tools' >> ~/.bashrc
-echo 'export PATH=$PATH:$ANDROID_HOME/platform-tools' >> ~/.bashrc
-
+flutter doctor --android-licenses
 ```
 
-```bash
-source ~/.bashrc
+---
 
-```
-
-```bash
-# Status Android Studio
-adb --version
-
-```
-</details><br><br>
-
-
-<details><summary>C. Configuração gráfica (GUI) e emulador</summary>
-
-1. Abra o **Android Studio** e conclua a configuração inicial (First Run / Import Settings).
-2. Clique em **More Actions -> SDK Manager**.
-3. Na aba **SDK Platforms**, marque as versões do Android que deseja (ex: Android 11 e 12).
-4. Na aba **SDK Tools**, marque **Android SDK Command-line Tools**.
-5. Na aba **Plugins**, procure por *Flutter* e clique em **Install**.
-6. Em **More Actions -> SDK Manager**, copie o endereço de **Android SDK Location**.
-7. No terminal, confirme o `adb --version` usando esse caminho em `ANDROID_HOME` (já configurado no `1_bashrc_config.md`).
-
-**Criar um emulador:**
-1. Clique em **More Actions -> Virtual Device Manager**.
-2. Clique em **Create Device** e escolha um perfil (ex: Pixel) com as configurações recomendadas.
-3. Selecione uma imagem de sistema compatível e finalize.
-
-> [!tip] Ao final, teste se tudo está funcionando fechando e abrindo um novo terminal e rodando `adb --version`.
-</details><br><br>
+## 🔗 Notas Relacionadas
+- [Configuração de Variáveis no .bashrc](01_bashrc_config.md) — Caminho do `ANDROID_HOME`.
+- [Instalação do Flutter SDK](05_install_flutter.md) — Validação com flutter doctor.
+- [Flutter no Linux: Guia Completo](flutter_linux.md) — Visão geral da preparação do ambiente.

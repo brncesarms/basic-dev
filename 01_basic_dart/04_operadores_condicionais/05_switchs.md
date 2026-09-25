@@ -2,11 +2,14 @@
 title: "Dart: Switch"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - condicionais
   - switch
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔀 Dart: Switch
 
 > [!info] A estrutura `switch` avalia uma expressão e executa o bloco do caso correspondente.
@@ -45,3 +48,11 @@ void main() {
 ## 🔗 Relacionados
 
 - 🎯 [Basic Dart — Mapa de Conteúdo](../README.md)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Null Safety](../05_trabalhando_com_nulos/01_null_safety.md) — Tratamento de nulos em tempo de compilação.
+- [Operadores Condicionais](01_operadores_condicionais.md) — Visão geral de controle de fluxo.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

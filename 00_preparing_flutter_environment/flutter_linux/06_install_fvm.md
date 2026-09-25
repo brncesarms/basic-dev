@@ -1,112 +1,55 @@
-# 6. **Install FVM**
-<details><summary>A. Pub package</summary>
+---
+title: "Flutter (Linux): Instalação e Uso do FVM (Flutter Version Management)"
+date_created: 2026-08-17
+last_modified: 2026-09-25
+author: "Bruno César"
+privacy: public
+tags:
+  - publico
+  - flutter
+  - linux
+  - fvm
+  - versionamento
+---
+
+# 🎛️ Flutter (Linux): Instalação e Uso do FVM
+
+> [!info] Instalação e operação do FVM (Flutter Version Management) para gerenciar versões distintas do SDK do Flutter por projeto sem conflitos.
+
+---
+
+## 1. Instalação Global do FVM via Dart Pub
 
 ```bash
+# Ativar o pacote globalmente
 dart pub global activate fvm
-
-```
-</details><br><br>
-
-
-<details><summary>X. This part is already present in "1_bashrc_config.md"</summary>
-
-```bash
-echo 'export PATH=$PATH:$HOME/.pub-cache/bin' >> ~/.bashrc
-
 ```
 
-```bash
-source ~/.bashrc
+Certifique-se de que o diretório `$HOME/.pub-cache/bin` esteja no seu `PATH` (definido no `~/.bashrc`).
 
-```
-</details><br><br>
+---
 
-
-<details><summary>B. Config FVM</summary>
+## 2. Comandos Operacionais Mais Usados
 
 ```bash
-fvm --version
+# Instalar uma versão específica do Flutter
+fvm install 3.24.0
 
-```
-
-```bash
-fvm config
-
-```
-
-```bash
-cd /home/$USER/ && mkdir _devprograms
-cd /home/$USER/_devprograms && mkdir fvm
-cd /home/$USER/_devprograms/fvm
-fvm config --cache-path /home/$USER/_devprograms/fvm
-
-```
-
-```bash
-# Listar FVM instaladas
-fvm list
-
-```
-
-```bash
-# Quais são as versões que existem disponíveis
-fvm releases
-
-```
-
-```bash
-fvm doctor
-
-```
-
-```bash
+# Instalar a versão estável mais recente
 fvm install stable
 
+# Definir a versão do Flutter para o projeto atual
+cd /caminho/do/seu/projeto
+fvm use 3.24.0
+
+# Executar comandos do flutter via FVM
+fvm flutter pub get
+fvm flutter run
 ```
 
-```bash
-fvm install 3.10.3
+---
 
-```
-</details><br><br>
-
-
-<details><summary>C. Usando uma versão especifica do FVM em um projeto</summary>
-
-```bash
-# Dentro do VSCode no terminal:
-fvm list
-
-```
-
-```bash
-fvm use 3.10.3
-
-```
-
-```bash
-fvm flutter doctor
-
-```
-
-```bash
-### na raiz do projeto crie o seguinte:
-#### source: https://fvm.app/docs/getting_started/configuration
-.vscode/settings.json
-
-```
-
-```bash
-{
-  "dart.flutterSdkPath": ".fvm/flutter_sdk",
-  // Remove .fvm files from search
-  "search.exclude": {
-    "**/.fvm": true
-  },
-  // Remove from file watching
-  "files.watcherExclude": {
-    "**/.fvm": true
-  }
-}
-
-```
+## 🔗 Notas Relacionadas
+- [Configuração de Variáveis no .bashrc](01_bashrc_config.md) — Export do .pub-cache/bin.
+- [Instalação do Flutter SDK](05_install_flutter.md) — Instalação do SDK base.
+- [Flutter no Linux: Guia Completo](flutter_linux.md) — Visão geral da preparação do ambiente.

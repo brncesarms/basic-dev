@@ -2,11 +2,14 @@
 title: "Dart: Loops (while e do-while)"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - loops
   - while
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔁 Dart: Loops `while` e `do-while`
 
 > [!info] Estruturas de repetição baseadas em condição. Enquanto o `while` checa antes de executar, o `do-while` executa pelo menos uma vez.
@@ -39,3 +42,11 @@ void main() {
 ## 🔗 Relacionados
 
 - 🎯 [Basic Dart — Mapa de Conteúdo](../README.md)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Loops for e for-in](01_for_forin.md) — Iteração com controle numérico.
+- [Iterables Funcionais](03_interable.md) — Métodos declarativos sobre coleções.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

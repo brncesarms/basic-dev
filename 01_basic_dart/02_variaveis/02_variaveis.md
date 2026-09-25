@@ -2,11 +2,14 @@
 title: "Dart: Variáveis e Tipos"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - variaveis
   - null-safety
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 📦 Dart: Variáveis e Tipos
 
 > [!info] Guia de variáveis e tipos no Dart, incluindo `int`, `double`, `String`, `bool`, `var` e noções de Null Safety.
@@ -63,3 +66,11 @@ void main() {
 ```
 
 > [!note] Referência oficial: <https://dart.dev/language/variables>
+
+---
+
+## 🔗 Notas Relacionadas
+- [Modificadores const e final](../03_modificadores/03_const_final.md) — Controle de imutabilidade de variáveis.
+- [Função Main](../01_funcao_main/01_funcao_main.md) — Estrutura do método principal.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

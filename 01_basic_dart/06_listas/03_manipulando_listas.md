@@ -2,11 +2,14 @@
 title: "Dart: Manipulando Listas"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - listas
   - manipulacao
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔧 Dart: Manipulando Listas
 
 > [!info] Operações comuns de adição, remoção, inserção e geração de listas no Dart.
@@ -63,3 +66,11 @@ void main() {
 ## 🔗 Relacionados
 
 - 🎯 [Basic Dart — Mapa de Conteúdo](../README.md)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Loops for e for-in](../07_loops/01_for_forin.md) — Iteração sobre coleções.
+- [Iterables Funcionais](../07_loops/03_interable.md) — Transformações com where, map e takeWhile.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

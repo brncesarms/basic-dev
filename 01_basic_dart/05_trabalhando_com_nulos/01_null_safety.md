@@ -2,10 +2,13 @@
 title: "Dart: Null Safety"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - null-safety
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # ☑️ Dart: Null Safety
 
 > [!info] Como o Dart lida com valores nulos em tempo de compilação.
@@ -43,3 +46,11 @@ void main() {
 ```
 
 > [!warning] Variáveis de nível superior/top-level não são promovidas a não-nulas pelo tipo. Atribua a uma variável local (ou use `!`) para acessar com segurança após checar `!= null`.
+
+---
+
+## 🔗 Notas Relacionadas
+- [Operador Null-Aware](02_null_aware_operator.md) — Tratamento de valores nulos com ?? e ??=.
+- [Acesso Condicional a Propriedades](03_conditional_property_access.md) — Navegação segura com ?..
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

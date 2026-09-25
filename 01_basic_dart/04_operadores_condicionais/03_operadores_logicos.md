@@ -2,11 +2,14 @@
 title: "Dart: Operadores Lógicos"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - operadores
   - logicos
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🧠 Dart: Operadores Lógicos
 
 > [!info] Operadores `&&` (e), `||` (ou) e `!` (não) para combinar condições booleanas.
@@ -46,3 +49,11 @@ void main() {
 ## 🔗 Relacionados
 
 - 🎯 [Basic Dart — Mapa de Conteúdo](../README.md)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Operadores Condicionais](01_operadores_condicionais.md) — Controle de fluxo de decisão.
+- [Operador Ternário](04_ternario.md) — Expressão condicional ternária.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

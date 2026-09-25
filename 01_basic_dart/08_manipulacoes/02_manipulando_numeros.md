@@ -2,11 +2,14 @@
 title: "Dart: Manipulando Números"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - numeros
   - manipulacao
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔢 Dart: Manipulando Números
 
 > [!info] Operações comuns de arredondamento, validação e conversão de números no Dart.
@@ -45,3 +48,11 @@ void main() {
 ## 🔗 Relacionados
 
 - 🎯 [Basic Dart — Mapa de Conteúdo](../README.md)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Manipulando Strings](01_manipulando_strings.md) — Tratamento de strings e interpolação.
+- [Mapa de Conteúdo Dart](../README.md) — Índice de fundamentos da linguagem.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

@@ -2,11 +2,14 @@
 title: "Dart: Loops (for e for-in)"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - loops
   - for
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 🔁 Dart: Loops `for` e `for-in`
 
 > [!info] Estruturas de repetição para percorrer listas, com controle de iteração, `break` e `continue`.
@@ -73,3 +76,11 @@ void main() {
 ```
 
 > [!tip] O `for-in` percorre os elementos diretamente (sem índice), sendo mais legível quando o índice não é necessário.
+
+---
+
+## 🔗 Notas Relacionadas
+- [Loops while e do-while](02_while_do_while.md) — Laços baseados em sentinela/condição.
+- [Iterables Funcionais](03_interable.md) — Alternativas funcionais a loops manuais.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.

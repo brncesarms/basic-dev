@@ -2,11 +2,14 @@
 title: "Dart: Manipulando Strings"
 date_created: 2026-08-17
 tags:
+  - publico
   - dart
   - strings
   - manipulacao
+author: "Bruno César"
+privacy: public
+last_modified: 2026-09-25
 ---
-
 # 📝 Dart: Manipulando Strings
 
 > [!info] Operações comuns de manipulação de textos no Dart: substrings, validação, caso, divisão e interpolação.
@@ -89,3 +92,11 @@ void main() {
 ```
 
 > [!note] Referência oficial: <https://api.flutter.dev/flutter/dart-core/String/substring.html>
+
+---
+
+## 🔗 Notas Relacionadas
+- [Manipulando Números](02_manipulando_numeros.md) — Conversão e arredondamento numérico.
+- [Mapa de Conteúdo Dart](../README.md) — Índice de fundamentos da linguagem.
+- [Mapa de Conteúdo Dart](../README.md) — Índice completo dos fundamentos de Dart.
+- [Guia Principal de Desenvolvimento Básico](../../README.md) — MOC de Flutter e Dart.
